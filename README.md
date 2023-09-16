@@ -10,7 +10,8 @@ The code is available in "**code.R**".
 Our example data are authors' calculated from the HRS. They are stored in folder "**RMLE**". Inside this folder, there are two files:
 
 - "**BASELINE.csv**" includes the initial health structure of the population. The columns are explained below
-state: health state (with 1 and 2, healthy and unhealthy respectively)
+
+**state**: health state (with 1 and 2, healthy and unhealthy respectively)
 
 **ragender**: gender
 
@@ -19,7 +20,8 @@ state: health state (with 1 and 2, healthy and unhealthy respectively)
 **iter**: bootstrap iteration number
 
 - "**PROB.csv**" includes the transition probabilities by age. The columns are explained below
-pre_state: the initial state
+
+**pre_state**: the initial state
 
 **ragender**: gender
 
