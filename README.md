@@ -35,4 +35,6 @@ Our example data are authors' calculated from the HRS. They are stored in folder
 
 **H**: probability to "Death" given the initial state
 
+In the R output: Column "A" represent the healthy life expectancy, Column "L" the unhealthy life expectancy and Column "H" the death expectancy (time in death). We didn’t report this value because it is only part of the calculation and not meaningful. We are computing the temporary life expectancy, so in the example, the maximum life expectancy is 51 (i.e., 55-105). Within the 51 years, female would be dead for 24.33 years. The total life expectancy is 51-24.33=26.68=22.47+4.21. The only possible way to interpret this value is the “Year of Life Lost” (YYL), but it is not very useful for anyone to know how long one spends dead. Unless you have a state space without absorbing state, in which all the column has its meaning.
+
 For other enquiries related to the paper please email tianyu.shen@anu.edu.au
